@@ -1,0 +1,32 @@
+{
+  "name": "reputation-dao-backend",
+  "version": "1.0.0",
+  "description": "reputation dao backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon ./server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://burner0621: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@github.com/burner0621/reputationdao.git"
+  },
+  "author": "burner0621",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/burner0621/reputationdao/issues"
+  },
+  "homepage": "https://github.com/burner0621/reputationdao#readme",
+  "dependencies": {
+    "@moralisweb3/common-evm-utils": "^2.22.5",
+    "axios": "^1.6.2",
+    "cross-fetch": "^4.0.0",
+    "csv-parse": "^5.5.0",
+    "ethereumjs-util": "^7.1.5",
+    "get-stream": "^6.0.1",
+    "mongoose": "^7.5.0",
+    "moralis": "^2.22.5",
+    "nodemon": "^3.0.1",
+    "web3": "^1.7.1"
+  }
+}
